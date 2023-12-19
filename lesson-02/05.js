@@ -2,7 +2,9 @@ let passport = {
   name: "Petr",
   surname: "Petrov",
 };
-let copy = Object.assign({}, passport);
-copy = Object.assign(copy, { name: "Ivan" });
-console.log(passport);
-console.log(copy);
+let  newPassport = Object.assign({}, passport);
+newPassport = Object.assign(newPassport, { name: "Ivan" });
+ 
+
+console.log(newPassport);
+console.log(passport); 
