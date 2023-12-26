@@ -3,9 +3,5 @@ const numbers = [
   [11, 20, 33, 40, 55],
   [111, 200, 333, 400, 555],
 ];
- 
-numbers.map(row => console.log(
-    row.filter
-        (number =>!(number % 2)))
-); 
- 
+
+console.log(numbers.map((row) => row.filter((number) => !(number % 2))));
